@@ -1,0 +1,4 @@
+name,email,password,phone,address,country,state,city,website_url,blocked,role,compay_id
+test hdfc,testhdfcbank257a@gmail.com,12346,02222 223666,asd,,,,,1,company-admin,1
+fgh,testhdfcbanfghk2a57@gmail.com,123456,02222 223666,asd,,,,,1,company-user,2
+sa,saurabasdah@justgotochef.com,,984654,51dasdasd,,,,,1,company-user,1

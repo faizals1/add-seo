@@ -1,0 +1,532 @@
+{
+  "menu": [
+    {
+      "for" :["superadmin"],
+      "url": "/superadmin",
+      "name": "Dashboard",
+      "i18n": "superadmin",
+      "class": "waves-effect waves-cyan",
+      "slug": "dashboard",
+      "icon": "settings_input_svideo"
+    },
+    {
+      "for" :["admin"],
+      "url": "/",
+      "name": "Dashboard",
+      "i18n": "superadmin",
+      "class": "waves-effect waves-cyan",
+      "slug": "dashboard",
+      "icon": "settings_input_svideo"
+    },
+    {
+      "navheader": "Applications",
+      "icon": "more_horiz"
+    },
+    
+    {
+      "for" :["superadmin"],
+      "url": "javascript:void(0)",
+      "name": "Companies",
+      "i18n": "Companies",
+      "class": "collapsible-header waves-effect waves-cyan",
+      "slug": "companies",
+      "icon": "format_list_bulleted",
+      "submenu": [
+        {
+          "url": "superadmin/company/create",
+          "name": "Company Add",
+          "i18n": "Company Add",
+          "slug": "add-company"
+        },
+        {
+          "url": "superadmin/company",
+          "name": "Companies List",
+          "i18n": "Companies List",
+          "slug": "companies-list"
+        }
+      ]
+    },
+    {
+      "for" :["superadmin"], 
+      "url": "javascript:void(0)",
+      "name": "Company Admin",
+      "i18n": "Company Admin",
+      "class": "collapsible-header waves-effect waves-cyan",
+      "slug": "company-admin",
+      "icon": "person_outline",
+      "submenu": [
+        {
+          "url": "superadmin/company-admin-create",
+          "name": "Create",
+          "i18n": "Add Company Admin",
+          "slug": "add-company-admin"
+        },
+        {
+          "url": "superadmin/company-admin-list",
+          "name": "List",
+          "i18n": "Company Admin List",
+          "slug": "company-admin-list"
+        }
+      ]
+    },
+    {
+      "for" :["superadmin"],
+      "url": "javascript:void(0)",
+      "name": "Company User",
+      "i18n": "Company User",
+      "class": "collapsible-header waves-effect waves-cyan",
+      "slug": "company-user",
+      "icon": "person_outline",
+      "submenu": [
+        {
+          "url": "superadmin/company-user-create",
+          "name": "Add Company User",
+          "i18n": "Add Company User",
+          "slug": "add-company-user"
+        },
+        {
+          "url": "superadmin/company-user-list",
+          "name": "Company-user List",
+          "i18n": "Company-user List",
+          "slug": "company-user-list"
+        }
+      ]
+    },
+    {
+      "for" :["admin"],
+      "url": "javascript:void(0)",
+      "name": "Company User",
+      "i18n": "Company User",
+      "class": "collapsible-header waves-effect waves-cyan",
+      "slug": "company-user",
+      "icon": "person_outline",
+      "submenu": [
+        {
+          "url": "company-user-create",
+          "name": "Add Company User",
+          "i18n": "Add Company User",
+          "slug": "add-company-user"
+        },
+        {
+          "url": "company-user-list",
+          "name": "Company-user List",
+          "i18n": "Company-user List",
+          "slug": "company-user-list"
+        }
+      ]
+    },
+    {
+      "for" :["superadmin"],
+      "url": "javascript:void(0)",
+      "name": "Buyer",
+      "i18n": "Buyer",
+      "class": "collapsible-header waves-effect waves-cyan",
+      "slug": "Buyer",
+      "icon": "person_outline",
+      "submenu": [
+        {
+          "url": "superadmin/buyer/create",
+          "name": "Registration",
+          "i18n": "Buyer Registration",
+          "slug": "buyer-registration"
+        },
+        {
+          "url": "superadmin/buyer",
+          "name": "List",
+          "i18n": "Buyer List",
+          "slug": "buyer-list"
+        }
+      ]
+    },
+    {
+      "for" :["admin"],
+      "url": "javascript:void(0)",
+      "name": "Buyer",
+      "i18n": "Buyer",
+      "class": "collapsible-header waves-effect waves-cyan",
+      "slug": "Buyer",
+      "icon": "person_outline",
+      "submenu": [
+        {
+          "url": "buyer/create",
+          "name": "Buyer Registration",
+          "i18n": "Buyer Registration",
+          "slug": "buyer-registration"
+        },
+        {
+          "url": "buyer",
+          "name": "Buyer List",
+          "i18n": "Buyer List",
+          "slug": "buyer-list"
+        }
+      ]
+    },
+    {
+      "for" :["superadminss"],
+      "url": "javascript:void(0)",
+      "name": "Buyer Type",
+      "i18n": "Buyer Type",
+      "class": "collapsible-header waves-effect waves-cyan",
+      "slug": "Buyer Type",
+      "icon": "person_outline",
+      "submenu": [
+        {
+          "url": "superadmin/buyer-type/create",
+          "name": "Buyer Type Add",
+          "i18n": "Buyer Type Add",
+          "slug": "buyer-type-add"
+        },
+        {
+          "url": "superadmin/buyer-type",
+          "name": "Buyer Type List",
+          "i18n": "Buyer Type List",
+          "slug": "buyer-type-list"
+        }
+      ]
+    },
+    {
+      "for" :["superadmin"],
+      "url": "javascript:void(0)",
+      "name": "Items",
+      "i18n": "Items",
+      "class": "collapsible-header waves-effect waves-cyan",
+      "slug": "Items",
+      "icon": "view_list",
+      "submenu": [
+        {
+          "url": "superadmin/product/create",
+          "name": "Item Add",
+          "i18n": "Item Add",
+          "slug": "item-add"
+        },
+        {
+          "url": "superadmin/product",
+          "name": "Items List",
+          "i18n": "Items List",
+          "slug": "items-list"
+        }
+      ]
+    },
+
+    {
+      "for" :["superadmin"],
+      "url": "javascript:void(0)",
+      "name": "Product Category",
+      "i18n": "Product Category",
+      "class": "collapsible-header waves-effect waves-cyan",
+      "slug": "Product category",
+      "icon": "person_outline",
+      "submenu": [
+        {
+          "url": "superadmin/product-category/create",
+          "name": "Product Category Create",
+          "i18n": "superadmin/product-category/create",
+          "slug": "product-category-create"
+        },
+        {
+          "url": "superadmin/product-category",
+          "name": "Product Category List",
+          "i18n": "superadmin/product-category",
+          "slug": "product-category-list"
+        }
+      ]
+    },
+
+    {
+      "for" :["admin"],
+      "url": "javascript:void(0)",
+      "name": "Product Category",
+      "i18n": "Product Category",
+      "class": "collapsible-header waves-effect waves-cyan",
+      "slug": "Product Category",
+      "icon": "person_outline",
+      "submenu": [
+        {
+          "url": "product-category/create",
+          "name": "Product Category Create",
+          "i18n": "Product Category Create",
+          "slug": "product-category-create"
+        },
+        {
+          "url": "product-category",
+          "name": "Product Category List",
+          "i18n": "Product Category List",
+          "slug": "product-category-list"
+        }
+      ]
+    },
+
+    {
+      "for" :["admin","user"],
+      "url": "javascript:void(0)",
+      "name": "Items",
+      "i18n": "Items",
+      "class": "collapsible-header waves-effect waves-cyan",
+      "slug": "Items",
+      "icon": "view_list",
+      "submenu": [
+        {
+          "url": "product/create",
+          "name": "Item Add",
+          "i18n": "product/create",
+          "slug": "item-add"
+        },
+        {
+          "url": "product",
+          "name": "Items List",
+          "i18n": "product/",
+          "slug": "items-list"
+        }
+      ]
+    },
+
+    {
+      "for" :["superadmin1"],
+      "url": "javascript:void(0)",
+      "name": "Product Company Mapping",
+      "i18n": "Product Company Mapping",
+      "class": "collapsible-header waves-effect waves-cyan",
+      "slug": "Product Company Mapping",
+      "icon": "view_list",
+      "submenu": [
+        {
+          "url": "superadmin/product-mapping/create",
+          "name": "create",
+          "i18n": "superadmin/product-mapping/create",
+          "slug": "product-Company-mapping-create"
+        },
+        {
+          "url": "superadmin/product-mapping",
+          "name": "list",
+          "i18n": "superadmin/product-mapping/list",
+          "slug": "product-company-mapping-list"
+        }
+      ]
+    },
+    
+    {
+      "for" :["superadmin"],
+      "url": "javascript:void(0)",
+      "name": "Product Category",
+      "i18n": "Product Category",
+      "class": "collapsible-header waves-effect waves-cyan",
+      "slug": "Product category",
+      "icon": "view_list",
+      "submenu": [
+        {
+          "url": "superadmin/product-category/create",
+          "name": "Product Category Create",
+          "i18n": "superadmin/product-category/create",
+          "slug": "product-category-create"
+        },
+        {
+          "url": "superadmin/product-category",
+          "name": "Product Category List",
+          "i18n": "superadmin/product-category",
+          "slug": "product-category-list"
+        }
+      ]
+    },
+
+    
+
+    {
+      "for" :["admin","user"],
+      "url": "javascript:void(0)",
+      "name": "Product Category",
+      "i18n": "Product Category",
+      "class": "collapsible-header waves-effect waves-cyan",
+      "slug": "Product category",
+      "icon": "view_list",
+      "submenu": [
+        {
+          "url": "product-category/create",
+          "name": "Product Category Create",
+          "i18n": "product-category/create",
+          "slug": "product-category-create"
+        },
+        {
+          "url": "product-category",
+          "name": "Product Category List",
+          "i18n": "product-category",
+          "slug": "product-category-list"
+        }
+      ]
+    },
+    
+    
+    
+      
+    {
+      "for" :["superadmin"],
+      "url": "javascript:void(0)",
+      "name": "Sub Category",
+      "i18n": "Sub Category",
+      "class": "collapsible-header waves-effect waves-cyan",
+      "slug": "Sub category",
+      "icon": "view_list",
+      "submenu": [
+        {
+          "url": "superadmin/product-subcategory/create",
+          "name": "Sub Category Create",
+          "i18n": "Sub Category Create",
+          "slug": "sub-category-create"
+        },
+        {
+          "url": "superadmin/product-subcategory",
+          "name": "Sub Category List",
+          "i18n": "Sub Category List",
+          "slug": "Sub-category-list"
+        }
+      ]
+    },
+
+    {
+      "for" :["admin","user"],
+      "url": "javascript:void(0)",
+      "name": "Sub Category",
+      "i18n": "Sub Category",
+      "class": "collapsible-header waves-effect waves-cyan",
+      "slug": "Sub Category",
+      "icon": "view_list",
+      "submenu": [
+        {
+          "url": "product-subcategory/create",
+          "name": "Sub Category Create",
+          "i18n": "Sub Category Create",
+          "slug": "sub-category-create"
+        },
+        {
+          "url": "product-subcategory",
+          "name": "Sub Category List",
+          "i18n": "Sub Category List",
+          "slug": "Sub-category-list"
+        }
+      ]
+    },
+
+    {
+      "for" :["superadmin"],
+      "url": "javascript:void(0)",
+      "name": "Buyer Type Channel",
+      "i18n": "Buyer Type Channel",
+      "class": "collapsible-header waves-effect waves-cyan",
+      "slug": "Buyer Type Channel",
+      "icon": "person_outline",
+      "submenu": [
+        {
+          "url": "superadmin/buyer-type-channel/create",
+          "name": "create",
+          "i18n": "Buyer Type Channel",
+          "slug": "buyer-type-channel-create"
+        },
+        {
+          "url": "superadmin/buyer-type-channel",
+          "name": "list",
+          "i18n": "Buyer Type Channel",
+          "slug": "buyer-type-channel-list"
+        }
+      ]
+    },
+
+    {
+      "for" :["admin"],
+      "url": "javascript:void(0)",
+      "name": "Buyer Type Channel",
+      "i18n": "Buyer Type Channel",
+      "class": "collapsible-header waves-effect waves-cyan",
+      "slug": "Buyer Type Channel",
+      "icon": "person_outline",
+      "submenu": [
+        {
+          "url": "buyer-type-channel/create",
+          "name": "create",
+          "i18n": "Buyer Type Channel",
+          "slug": "buyer-type-channel-create"
+        },
+        {
+          "url": "buyer-type-channel",
+          "name": "list",
+          "i18n": "Buyer Type Channel",
+          "slug": "buyer-type-channel-list"
+        }
+      ]
+    },
+
+    {
+      "for" :["superadmin"],
+      "url": "javascript:void(0)",
+      "name": "Product Variation Type",
+      "i18n": "Product Variation Type",
+      "class": "collapsible-header waves-effect waves-cyan",
+      "slug": "Product Variation Type",
+      "icon": "person_outline",
+      "submenu": [
+        {
+          "url": "superadmin/product-variation-type/create",
+          "name": "create",
+          "i18n": "Product Variation Type",
+          "slug": "product-variation-type-create"
+        },
+        {
+          "url": "superadmin/product-variation-type",
+          "name": "list",
+          "i18n": "Product Variation Type",
+          "slug": "product-variation-type-list"
+        }
+      ]
+    },
+
+    {
+      "for" :["admin"],
+      "url": "javascript:void(0)",
+      "name": "Product Variation Type",
+      "i18n": "Product Variation Type",
+      "class": "collapsible-header waves-effect waves-cyan",
+      "slug": "Product Variation Type",
+      "icon": "person_outline",
+      "submenu": [
+        {
+          "url": "product-variation-type/create",
+          "name": "create",
+          "i18n": "Product Variation Type",
+          "slug": "product-variation-type-create"
+        },
+        {
+          "url": "product-variation-type",
+          "name": "list",
+          "i18n": "Product Variation Type",
+          "slug": "product-variation-type-list"
+        }
+      ]
+    },
+
+    {
+      "for" :["superadmin","admin","user"],
+      "url": "#",
+      "name": "Orders",
+      "i18n": "Orders",
+      "class": "waves-effect waves-cyan",
+      "icon": "add_shopping_cart",
+      "slug": "orders"
+    },
+    {
+      "for" :["superadmin"],
+      "url": "superadmin/profile-edit",
+      "name": "Profile",
+      "i18n": "Profile",
+      "class": "waves-effect waves-cyan",
+      "slug": "Profile",
+      "icon": "person_outline"
+    },
+    {
+      "for" :["admin","user"],
+      "url": "superadmin/profile-edit",
+      "name": "Profile",
+      "i18n": "Profile",
+      "class": "waves-effect waves-cyan",
+      "slug": "Profile",
+      "icon": "person_outline"
+    }
+  ]
+}
